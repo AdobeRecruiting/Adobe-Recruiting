@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Recruiting</title>
+  <link rel="stylesheet" href="Recruiting.css">
+  <!--Roboto-font-link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6PJ6SK6EC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6PJ6SK6EC7');
+</script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menu = document.querySelector(".menu");
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+  
+      menu.addEventListener("click", function() {
+        if (dropdownMenu.style.display === "block") {
+          dropdownMenu.style.display = "none";
+        } else {
+          dropdownMenu.style.display = "block";
+        }
+      });
+      window.addEventListener("click", function(event) {
+        if (!menu.contains(event.target) && !dropdownMenu.contains(event.target)) {
+          dropdownMenu.style.display = "none";
+        }
+      });
+    });
+  </script>
+
+</head>
+
+
+
+<body>
+
+  <!--Header-->
+  <div class="header">
+    <div class="brand">
+      <p>Adobe Recruiting</p>
+    </div>
+    <div class="logo">
+      <a href="/Home.html">
+        <img src="images/Logo2.png" class="logo-img" alt="Logo">
+      </a>
+    </div>
+    <div class="contact">
+      <a href="/Contact Page.html">Contact Us</a>
+    </div>
+    <div class="menu">
+      <p class="menu-icon">Menu <span class="uni"> &#x25BC; </span> </p>
+      <div class="dropdown-menu">
+        <a href="/Home.html">Home</a>
+        <a href="/Recruiting.html">Services</a>
+        <a href="/Positions.html">Find Work</a>
+        <a href="/About Us.html">About Us</a>
+      </div>
+    </div>
+  </div>
+  <!--Header-->
+
+  <!--HERO-->
+  <div class="gradient">
+    <h1>Our Services</h1>
+  </div>
+  <!--Main Section-->
+  <div class="main">
+    <div class="section1">
+      <div class="section1-1">
+        <img class="icon" src="Images/candidate-icon1.1.png">
+        <h2 class="copy">Direct Hire</h2>
+        <h4 class="copy">We streamline the hiring process to connect you with the best talent.</h4>
+      </div>
+      <div class="section1-2">
+        <img class="icon" src="Images/candidate-icon2.png.png">
+        <h2 class="copy">Need Multiple Placements? No Problem!</h2>
+        <h4 class="copy">Let us help you quickly source and place multiple top-tier candidates with ease.</h4>
+      </div>
+    </div>
+    <div class="section2">
+      <img src="Images/Services-Img.jpg">
+    </div>
+  </div>
+  <div class="process-header">
+    <h3>How It Works</h3>
+  </div>
+  <div class="mainsection">
+    <!-- FIRST COLUMN -->
+    <div class="column">
+      <div class="column-1">
+        <img src="images/one.png" class="one">
+        <p class="column-text">
+          We begin by conducting a detailed consultation with you to understand your organization's requirements, objectives, and culture. 
+          During this consultation, we'll also discuss our fee structure and payment terms.
+        </p>
+        <p class="column-text2">
+          After vetting candidates, we present you with a shortlist of qualified individuals accompanied by detailed profiles highlighting their background, accomplishments, and potential fit for the position.
+        </p>
+        <h3 class="description1">Consultation</h3>
+        <h3 class="description2">Research</h3>
+      </div>
+      <div class="column-2">
+        <img src="images/four.png" class="four">
+      </div>
+    </div>
+    
+    <!-- SECOND COLUMN -->
+    <div class="column">
+      <div class="column-1">
+        <img src="images/two.png" class="two">
+        <p class="column-text">
+          Then we conduct comprehensive market research to identify potential candidates who possess the skills and qualities sought by your organization.
+        </p>
+        <p class="column-text2">
+          We give you the opportunity to interview the shortlisted candidates to further assess their suitability for the position. We provide guidance and support throughout the entire interview process.
+        </p>
+        <h3 class="description3">Screening</h3>
+        <h3 class="description4">Presentation</h3>
+      </div>
+      <div class="column-2">
+        <img src="images/five.png" class="five">
+      </div>
+    </div>
+    <!-- THIRD COLUMN -->
+    <div class="column">
+      <div class="column-1">
+        <img src="images/three.png" class="three">
+        <p class="column-text">
+          After reaching out to potential candidates, we conduct thorough interviews to assess their qualifications and fit for the position.
+        </p>
+        <p class="column-text2">
+          After the candidate has been chosen, we facilitate a smooth transition for the newly hired candidate, ensuring a positive onboarding experience. We also follow up with both you and the candidate to ensure satisfaction and address any concerns.
+        </p>
+        <h3 class="description5">Selection</h3>
+        <h3 class="description6">Placement</h3>
+      </div>
+      <div class="column-2">
+        <img src="images/six.png" class="six">
+      </div>
+    </div>
+  </div>
+  <!--Contact us-->
+  <div class="contact-us-section">
+    <div class="contact-line1">
+      <h3 class="copy2">Ready to Get Started?</h3>
+    </div>
+    <div class="contact-line2">
+      <h4 class="copy3">Contact us today for a free consultation and take the first step towards building your <span class="highlight">dream team.</span></h4>
+    </div> 
+    <div class="contact-button-container">
+      <a href="Contact Page.html">
+        <button class="contact-button">Contact Us</button>
+      </a>
+    </div>
+  </div>
+  <!--FOOTER-->
+  <div class="footer">
+    <div class="footer-main">
+      <div class="zero">
+        Adobe Recruiting
+        <div>
+          <a href="https://www.instagram.com/adobe_recruiting"><img class="footer-instagram" src="Images/instagram-white.png"></a>
+          <a href="https://www.facebook.com/profile.php?id=61557887191051"><img class="footer-facebook" src="Images/facebook-white.png"></a>
+          <a href="https://twitter.com/AdobeRecruting"><img class="footer-twitter" src="Images/twitter-white.png"></a>
+          <a href="https://twitter.com/AdobeRecruting"><img class="footer-linkedin" src="Images/linkedin-white.png"></a>
+        </div>
+      </div>
+      <div class="one">
+        <a href="Recruiting.html"><p class="link">Services</p></a>
+        <a href="Positions.html"><p class="link">Find Work</p></a>
+      </div>
+      <div class="two">
+        <a href="/Contact Page.html"><p class="link">Contact Us</p></a>
+        <a href="About Us.html"><p class="link">About Us</p></a>
+      </div>
+      <div class="three">
+        <p class="link">Terms Of Use</p>
+        <p class="link">Privacy Policy</p>
+      </div>
+      <div class="legal">
+        © 2024 Adobe Recruiting LLC. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</body>

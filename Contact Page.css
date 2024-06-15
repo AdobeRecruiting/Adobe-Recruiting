@@ -1,0 +1,510 @@
+
+body {
+  margin: 0;
+  background-color: #FAEEEA;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid black;
+  position: relative;
+  z-index: 2; 
+}
+
+.logo {
+  display: flex;
+  order: -1;
+  height: 40px;
+  margin-left: 20px;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo-img:hover {
+  transition-duration: 0.2s;
+  filter: brightness(95%);
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  padding-top: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  padding-left: 6px;
+  margin-right: 20px;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 0px;
+  background-color: #0f4392;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  height: 32px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 150px;
+  justify-content: center;
+  position: relative;
+  font-size: 18px;
+  align-items: center;
+  letter-spacing: 0px;
+  background-color: #ff4949;
+  z-index: 3; 
+  padding-top: 8px;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.uni {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.uni.rotate {
+  transform: rotate(180deg);
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  transition-duration: 0.2s;
+  filter: opacity(65%);
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: -1px;
+  background-color: white;
+  border: 1px solid black;
+  width: 119px;
+  justify-content: center;
+  z-index: 4; 
+}
+
+.dropdown-menu a {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0f4392;
+  color: white;
+}
+/* Header */
+
+
+
+/*Hero*/
+.gradient {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(8, 34, 73, 1) 6%, rgba(8, 34, 74, 1) 6%, rgba(15, 67, 146, 1) 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff4949;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+
+.Contact-Us {
+  margin-top: 65px;
+}
+/*Hero*/
+
+/* CONTACT */
+
+input, textarea {
+  height: 28px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: transparent !important;
+  border: 5px hidden black;
+  border-bottom-style: solid;
+  border-radius: 3px;
+  border-width: 4px;
+  padding: 8px;
+  color: black;
+  outline: none;
+  box-shadow: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  appearance: none; 
+  padding-bottom: 0px;
+  letter-spacing: 2px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  background-color: transparent !important;
+  outline: none; 
+}
+
+textarea {
+  line-height: 20px;
+  resize: none;
+  overflow: auto; 
+  scrollbar-width: thin; 
+  height: 12px;
+  padding-top: 145px;
+  margin-bottom: 20px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0px; 
+}
+
+textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px; 
+}
+
+.contact-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 475px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  border-width: 3px;
+  border-style: solid;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  top: 35%;
+  left: 20%;
+}
+
+.contact-container h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.contact-section1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.contact-section2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+button {
+  background-color: #444444;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 80%;
+  margin-left: 60px;
+  letter-spacing: 1px;   
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c3c3c3;
+}
+
+button:active {
+  transition: 20ms;
+  transform: scale(0.95);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.phone {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.email {
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+
+.social {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-top: 75px;
+  padding-top: 165px;
+}
+
+.mail {
+  color: black;
+  transition: color 0.2s ease;
+}
+
+.mail:hover {
+  color: #c3c3c3;
+}
+
+.A,
+.B,
+.C {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.A img:hover {
+content: url(/Images/instagram-lightgrey.png);
+} 
+
+.B img:Hover {
+  content: url(/Images/facebook-lightgrey.png);
+}
+
+.C img:hover {
+  content: url(/Images/twitter-lightgrey.png);
+}
+
+.A img, .B img, .C img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* CONTACT */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+  height: 185px;
+  width: 100%;
+  align-items: center;
+  margin-top: 590px;
+}
+
+.footer-main {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+}
+
+.footer p {
+  margin-bottom: 25px;
+}
+
+.legal {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: black;
+  border-top: #FAEEEA;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 90%;
+  top: 125.3%;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+}
+
+.zero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 145px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FAEEEA;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  height: 145px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; 
+  font-size: 16px;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  height: 145px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Medium weight */
+  font-size: 16px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  height: 145px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Medium weight */
+  font-size: 16px;
+}
+
+.link {
+ cursor: pointer;
+ transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #c3c3c3;
+}
+
+.footer-instagram {
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.footer-facebook {
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.footer-twitter {
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.footer-linkedin {
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.footer-instagram:hover {
+  content: url(/Images/instagram-lightgrey.png);
+}
+
+.footer-facebook:hover {
+  content: url(/Images/facebook-lightgrey.png);
+}
+
+.footer-twitter:hover {
+  content: url(/Images/twitter-lightgrey.png);
+}
+
+.footer-linkedin:hover {
+  content: url(/Images/linkedin-lightgrey.png);
+}

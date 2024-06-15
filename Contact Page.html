@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Recruiting</title>
+  <link rel="stylesheet" href="Contact Page.css">
+  <!--Font-links--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;0,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <!--Font-links--> 
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6PJ6SK6EC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6PJ6SK6EC7');
+</script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menu = document.querySelector(".menu");
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+  
+      menu.addEventListener("click", function() {
+        if (dropdownMenu.style.display === "block") {
+          dropdownMenu.style.display = "none";
+        } else {
+          dropdownMenu.style.display = "block";
+        }
+      });
+      window.addEventListener("click", function(event) {
+        if (!menu.contains(event.target) && !dropdownMenu.contains(event.target)) {
+          dropdownMenu.style.display = "none";
+        }
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!--Header-->
+  <div class="header">
+    <div class="brand">
+      <p>Adobe Recruiting</p>
+    </div>
+    <div class="logo">
+      <a href="/Home.html">
+        <img src="images/Logo2.png" class="logo-img" alt="Logo">
+      </a>
+    </div>
+    <div class="contact">
+      <a href="/Contact Page.html">Contact Us</a>
+    </div>
+    <div class="menu">
+      <p class="menu-icon">Menu <span class="uni"> &#x25BC; </span> </p>
+      <div class="dropdown-menu">
+        <a href="/Home.html">Home</a>
+        <a href="/Recruiting.html">Services</a>
+        <a href="/Positions.html">Find Work</a>
+        <a href="/About Us.html">About Us</a>
+      </div>
+    </div>
+  </div>
+  <!--Header-->
+
+<div class="gradient">
+  <h1 class="Contact-Us">Contact Us</h1>
+</div>
+
+  <!--CONTACT-->
+  <div class="contact-container">
+    <div class="contact-container2">
+      <div class="contact-section1">
+        <form action="send_email.php" method="post">
+          <p>Name</p>
+          <input type="text" name="name" required>
+
+          <p>E-mail</p>
+          <input type="email" name="email" required>
+
+          <p>Message</p>
+          <textarea name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="contact-section2">
+        <div class="phone">
+          <h2>Free Consultation</h2>
+          <h3>+1 (928) 303-2337</h3>
+        </div>
+
+        <div class="email">
+          <h2>Our E-mail</h2>
+          <a href="mailto:adoberecruitingofficial@gmail.com">
+            <h3 class="mail">adoberecruitingofficial@gmail.com</h3>
+          </a>
+        </div>
+
+        <div class="social">
+          <div class="A">
+            <a href="https://www.instagram.com/adobe_recruiting"><img src="Images/instagram.png"></a>
+          </div>
+
+          <div class="B">
+            <a href="https://www.facebook.com/profile.php?id=61557887191051"><img src="Images/facebook.png"></a>
+          </div>
+
+          <div class="C">
+            <a href="https://twitter.com/AdobeRecruting"><img src="Images/twitter.png"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+<div Class="footer">
+
+  <div class="footer-main">
+
+    <div class="zero">
+      Adobe Recruiting
+      <div>
+        <a href="https://www.instagram.com/adobe_recruiting"><img class="footer-instagram" src="Images/instagram-white.png"></a>
+        <a href="https://www.facebook.com/profile.php?id=61557887191051"><img class="footer-facebook" src="Images/facebook-white.png"></a>
+        <a href="https://twitter.com/AdobeRecruting"><img class="footer-twitter" src="Images/twitter-white.png"></a>
+        <a href="https://twitter.com/AdobeRecruting"><img class="footer-linkedin" src="Images/linkedin-white.png"></a>
+      </div>
+    </div>
+
+    <div class="one">
+      <a href="Recruiting.html"><p class="link">Services</p></a>
+      <a href="Positions.html"><p class="link">Find Work</p></a>
+      
+    </div>
+
+    <div class="two">
+      <a href="/Contact.html"><p class="link">Contact Us</p></a>
+      <a href="About Us.html"><p class="link">About Us</p></a>
+    </div>
+
+    <div class="three">
+      <p class="link">Terms Of Use</p>
+      <p class="link">Privacy Policy</p>
+    </div>
+
+    <div class="legal">
+      © 2024 Adobe Recruiting LLC. All Rights Reserved.
+    </div>
+
+  </div>
+
+</div>
+<!--FOOTER-->
+
+
+  
+</body>
