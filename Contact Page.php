@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Your email where the message will be sent
-    $to = "your-email@example.com";  // Replace with your email address
+    $to = "adoberecruitingofficial@gmail.com";  // Replace with your email address
     $subject = "New Message from Contact Form";
     $headers = "From: " . $email . "\r\n" .
                "Reply-To: " . $email . "\r\n" .
