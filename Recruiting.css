@@ -477,7 +477,7 @@ div {
 }
 
 .footer-instagram:hover {
-  content: url(/Images/instagram-lightgrey.png);
+  content: url(../Images/instagram-lightgrey.png);
 }
 
 .footer-facebook:hover {
