@@ -478,7 +478,7 @@ div {
 }
 
 .footer-instagram:hover {
-  filter: brightness(75%);
+  content: url(Images/instagram-lightgrey.png);
 }
 
 .footer-facebook:hover {
