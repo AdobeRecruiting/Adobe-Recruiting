@@ -477,17 +477,17 @@ div {
 }
 
 .footer-instagram:hover {
-  content: url(/Images/instagram-lightgrey.png);
+  content: url(Images/instagram-lightgrey.png);
 }
 
 .footer-facebook:hover {
-  content: url(/Images/facebook-lightgrey.png);
+  content: url(Images/facebook-lightgrey.png);
 }
 
 .footer-twitter:hover {
-  content: url(/Images/twitter-lightgrey.png);
+  content: url(Images/twitter-lightgrey.png);
 }
 
 .footer-linkedin:hover {
-  content: url(/Images/linkedin-lightgrey.png);
+  content: url(Images/linkedin-lightgrey.png);
 }
