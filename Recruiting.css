@@ -474,10 +474,11 @@ div {
   margin-top: 20px;
   padding: 10px;
   padding-top: 0px;
+    transition: filter 0.2s ease;
 }
 
 .footer-instagram:hover {
-  content: url(Images/instagram-lightgrey.png);
+  filter: brightness(75%);
 }
 
 .footer-facebook:hover {
